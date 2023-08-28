@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bree Serif', serif;
+}
+.logo-item{
+    margin:40px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 80%;
+    
+}
+.logo-item .logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 50%;
+
+}
+.logo-item ul {
+    list-style: none;
+    display: flex;
+    text-align: right;
+    gap: 20px;
+}
+.header-section{
+    width: 80%;
+    display: flex;
+    margin: auto;
+}
+.header-left{
+    width: 40%;
+    margin: 200px 0;
+    flex-basis: 50%;
+}
+.header-left h2{
+    font-size: 50px;
+    width: 70%;
+}
+.header-left p{
+    font-size: 17px;
+    line-height: 1.5;
+    width: 70%;
+    margin: 10px 0;
+    
+}
+.header-left input{
+    padding: 15px 30px;
+}
+.header-left button{
+    padding: 15px 30px;
+    border: 1px solid black;
+    margin-left: 5px;
+    background-color: rgb(248, 127, 79);
+}
+.img-items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 40px 0;
+    width: 70%;
+    align-items: center;
+    grid-gap: 10px;
+    
+    
+    
+}
+.header-section .header-right{
+    width: 150px;
+   flex-basis: 50%;
+   margin-left:200px ;
+}
+/* end of header */
+
+
+.features{
+    margin: auto;
+    text-align: center;
+    
+}
+.features h2{
+    font-size: 30px;
+}
+.features p{
+    margin: auto;
+    font-size: 20px;
+    width: 800px;
+}
+.hero-item{
+    margin: auto;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+    display: flex;
+    
+}
+.hero-item .item{
+    display: flex;
+   margin: 30px 0;
+   width: 50%;
+   margin-left: 120px;
+}
+.hero-item .item img{
+    width: 35px;
+    
+}
+.hero-item .item .content h2{
+    font-size: 25px;
+    padding-left: 10px;
+}
+.hero-item .item .content p{
+    text-align: left;
+    justify-content: center;
+    width: 250px;
+    padding-left: 10px;
+}
+/* end of hero */
+
+
+
+.hero-2{
+    display: flex;
+    width: 80%;
+    margin:50px auto;
+    gap: 20px;
+    justify-content: center;
+    
+}
+.hero-2-left{
+    margin: auto;
+    flex-basis: 50%;
+}
+.hero-2-right{
+    width: 600px;
+}
+.hero-2-right h2{
+    font-size: 30px;
+    margin-top:100px ;
+    width: 400px;
+}
+.hero-2-right p{
+    width: 400px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.hero-2-right ul{
+    list-style: none;
+       
+}
+.hero-2-right ul li i{
+    color: green;
+}
+.hero-2-right button{
+    margin: 20px 0;
+    border: none;
+    color:rgb(48, 48, 223) ;
+}
+/* end of hero-2 */
+
+.hero-3{
+    display: flex;
+    width: 80%;
+    margin:auto;
+    gap: 70px;
+    justify-content: center;
+}
+.hero-3-left{
+    margin: 90px;
+}
+.hero-3-left h2{
+    font-size: 30px;
+    margin-top:100px ;
+    width: 400px;
+}
+.hero-3-left p{
+    width: 400px;
+    line-height: 1.5;
+    padding: 10px 0;
+}
+.hero-3-left button{
+    margin: 20px 0;
+    border: none;
+    color:rgb(48, 48, 223) ;
+}
+.hero-3-right{
+    margin: 50px;
+    flex-basis: 50%;
+}
+/* end of hero-3 */
+
+.hero-4{
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    text-align: center;
+}
+.hero-4 h2{
+    padding: 10px 500px;
+}
+.hero-4 p{
+    padding: 10px 500px;
+    line-height: 1.5;
+    
+}
+.hero-4 img{
+    padding: 100px 0;
+}
+.hero-5{
+    width: 80%;
+    margin: auto;
+}
+.hero-5 .work{
+    text-align: center;
+}
+.hero-5 .work h2{
+    font-size: 25px;
+}
+.hero-5 .work p{
+    padding: 10px 500px;
+    line-height: 1.5;
+}
+.hero-5 .connect{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    margin: 20px 0;
+    
+}
+.hero-5 .connect .text  {
+    display: flex;
+}
+.hero-5 .connect .text .text-1{
+    margin-left: 15px;
+}
+.hero-5 .connect .text .text-1 h3{
+    font-size: 20px;
+    font-weight: 300;
+
+}
+.hero-5 .connect .text .text-1 p{
+    width: 400px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+/* end of hero-5 */
+
+.meet{
+    width: 80%;
+    margin: auto;
+}
+.meet-h{
+    width: 90%;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+.meet-h h2{
+    padding: 10px 150px;
+    margin-left: 150px;
+    font-size: 45px;
+    font-weight: 300;
+}
+.meet-h p{
+    padding: 10px 150px;
+    margin-left: 320px ;
+    width: 900px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.meet img{
+    margin-left: 240px;
+}
+/* end of meet */
+
+.do-you{
+    background-color:#183656;
+    width: 70%;
+    height: 150px;
+    margin: auto;
+    display: flex;
+    gap: 20px;
+    flex-basis: 50%;
+    border-radius: 15px;
+    
+}
+.do-you h2{
+    margin-left: 50px;
+    margin-top: 30px;
+    color: white;
+    font-weight: 200;
+    width: 400px;
+}
+.do-you button{
+    margin-top: 40px ;
+    margin-left: 400px;
+    padding: 10px 25px;
+}
+/* end of do-you */
+
+.footer-section{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+}
+.footer-section div{
+    padding: 30px 0;
+    margin-left: 50px;
+}
+.logo-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 50%;
+}
+.logo-s h2{
+    font-weight: 200;
+    font-size: 25px;
+}
+.logo-s h4{
+    margin-left: 50px;
+    line-height: 2;
+    font-weight: 200;
+    font-size: 17px;
+}
+.footer-section h3{
+    font-weight: 200;
+    font-size: 25px;
+    padding: 20px;
+}
+.footer-section h4{
+    font-size: 17px;
+    font-weight: 200;
+    line-height: 2.5;
+    padding-left: 25px 0;
+    margin-left: 25px ;
+    
+}
+/* end of footer */
