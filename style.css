@@ -29,12 +29,14 @@
 }
 .header-section{
     width: 80%;
+    margin:auto;
     display: flex;
-    margin: auto;
+    justify-items: center;
+    align-items: center;
 }
 .header-left{
-    width: 40%;
-    margin: 200px 0;
+    
+    
     flex-basis: 50%;
 }
 .header-left h2{
@@ -68,10 +70,8 @@
     
     
 }
-.header-section .header-right{
-    width: 150px;
-   flex-basis: 50%;
-   margin-left:200px ;
+.header-section .header-right img{
+    width: 600px; ;
 }
 /* end of header */
 
@@ -106,6 +106,7 @@
 }
 .hero-item .item img{
     width: 35px;
+    padding-top: 7px;
     
 }
 .hero-item .item .content h2{
@@ -126,13 +127,16 @@
     display: flex;
     width: 80%;
     margin:50px auto;
-    gap: 20px;
+    gap: 40px;
     justify-content: center;
     
 }
 .hero-2-left{
     margin: auto;
     flex-basis: 50%;
+}
+.hero-2-left img{
+    width: 500px;
 }
 .hero-2-right{
     width: 600px;
@@ -165,7 +169,7 @@
     display: flex;
     width: 80%;
     margin:auto;
-    gap: 70px;
+    gap: 40px;
     justify-content: center;
 }
 .hero-3-left{
@@ -186,9 +190,9 @@
     border: none;
     color:rgb(48, 48, 223) ;
 }
-.hero-3-right{
-    margin: 50px;
-    flex-basis: 50%;
+.hero-3 img{
+    width: 500px;
+   
 }
 /* end of hero-3 */
 
@@ -199,10 +203,10 @@
     text-align: center;
 }
 .hero-4 h2{
-    padding: 10px 500px;
+    padding: 10px 50px;
 }
 .hero-4 p{
-    padding: 10px 500px;
+    padding: 10px 50px;
     line-height: 1.5;
     
 }
@@ -210,24 +214,27 @@
     padding: 100px 0;
 }
 .hero-5{
-    width: 80%;
+    
     margin: auto;
 }
-.hero-5 .work{
-    text-align: center;
-}
+
 .hero-5 .work h2{
     font-size: 25px;
+    text-align: center;
 }
 .hero-5 .work p{
-    padding: 10px 500px;
+    padding: 10px 50px;
     line-height: 1.5;
+    text-align: center;
 }
 .hero-5 .connect{
+    width: 80%;
+    margin: auto;
+    margin-top: 15px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 15px;
-    margin: 20px 0;
+    
     
 }
 .hero-5 .connect .text  {
@@ -253,26 +260,22 @@
     margin: auto;
 }
 .meet-h{
-    width: 90%;
     text-align: center;
     margin-top: 100px;
     
 }
 .meet-h h2{
-    padding: 10px 150px;
-    margin-left: 150px;
+    
     font-size: 45px;
     font-weight: 300;
 }
 .meet-h p{
-    padding: 10px 150px;
-    margin-left: 320px ;
-    width: 900px;
+    padding: 10px 15px;
     font-size: 18px;
     font-weight: 200;
 }
 .meet img{
-    margin-left: 240px;
+    
 }
 /* end of meet */
 
@@ -283,8 +286,9 @@
     margin: auto;
     display: flex;
     gap: 20px;
-    flex-basis: 50%;
     border-radius: 15px;
+    margin-top: -5px;
+    justify-content: space-between;
     
 }
 .do-you h2{
@@ -296,7 +300,7 @@
 }
 .do-you button{
     margin-top: 40px ;
-    margin-left: 400px;
+    margin-right: 20px;
     padding: 10px 25px;
 }
 /* end of do-you */
@@ -306,17 +310,17 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-gap: 20px;
+    grid-gap: 10px;
 }
 .footer-section div{
     padding: 30px 0;
-    margin-left: 50px;
+   
 }
 .logo-section{
     display: flex;
     align-items: center;
-    gap: 10px;
-    flex: 50%;
+    gap: 5px;
+    
 }
 .logo-s h2{
     font-weight: 200;
@@ -331,7 +335,7 @@
 .footer-section h3{
     font-weight: 200;
     font-size: 25px;
-    padding: 20px;
+    padding: 15px;
 }
 .footer-section h4{
     font-size: 17px;
